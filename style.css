@@ -16,6 +16,7 @@
     --grayColor2: rgb(221, 221, 221);
     --grayColor3: rgb(246, 246, 246);
     --grayColor4: #666666;
+    --grayColor5: #888888;
     --textFont: Ebrima, Arial;
 }
 
@@ -48,6 +49,7 @@ header nav {
     display: inline-block;
     margin-right: 30px;
     font-size: 12px;
+    color: var(--whiteColor);
 }
 
 .headerDiv {
@@ -411,3 +413,25 @@ main {
     border-radius: 4px;
     border: solid 1px var(--greenColor3);
 }
+
+footer {
+    background-color: var(--blackColor2);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: var(--grayColor4);
+}
+
+footer i {
+    font-size: 15px;
+}
+
+footer p {
+    padding-top: 30px;
+    font-size: 12px;
+}
+
+footer p span {
+    color: var(--grayColor5);
+}
+

@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en" style=" scroll-behavior: smooth;">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,11 +13,11 @@
         <div class="logo">Landscaper</div>
         <nav>
             <ul>
-                <li class="mainMenu">ABOUT</li>
-                <li class="mainMenu">SERVICES</li>
-                <li class="mainMenu">GALLERY</li>
-                <li class="mainMenu">TESTIMONIALS</li>
-                <li class="mainMenu">CONTACT</li>
+                <a href="index.html#about"><li class="mainMenu">ABOUT</li></a>
+                <a href="index.html#services"><li class="mainMenu">SERVICES</li></a>
+                <a href="index.html#gallery"><li class="mainMenu">GALLERY</li></a>
+                <a href="index.html#testimonials"><li class="mainMenu">TESTIMONIALS</li></a>
+                <a href="index.html#contact"><li class="mainMenu">CONTACT</li></a>
             </ul>
         </nav>
         <div class="headerDiv">
@@ -29,7 +28,7 @@
         </div>
     </header>
     <main>
-        <section class="aboutSection">
+        <section id="about" class="aboutSection">
             <div class="welcomeDiv">
                 <h1>Welcome to <span>Landscaper</span></h1>
                 <hr class="darkGreenHR">
@@ -49,7 +48,7 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante.<p></p>
             </div>
         </section>
-        <section class="servicesSection">
+        <section id="services" class="servicesSection">
             <h1>Our Services</h1>
             <hr class="lightGreenHR">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leonec.</p>
@@ -76,7 +75,7 @@
                 </section>
             </div>
         </section>
-        <section class="gallerySection">
+        <section id="gallery" class="gallerySection">
             <h1>Project Gallery</h1>
             <hr class="darkGreenHR">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leonec.</p>
@@ -100,7 +99,7 @@
                 <img class="galleryImg" src="img/portfolio/09-small.jpg" />
             </div>
         </section>
-        <section class="testimonialsSection">
+        <section id="testimonials" class="testimonialsSection">
             <h1>Testimonials</h1>
             <hr class="lightGreenHR">
             <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam."</p>
@@ -115,7 +114,7 @@
                 </ul>
             </nav>
         </section>
-        <section class="contactSection">
+        <section id="contact" class="contactSection">
             <h1>Contact Us</h1>
             <hr class="darkGreenHR">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit Duis sed dapibus leonec.</p>
@@ -146,19 +145,19 @@
         </section>
     </main>
     <footer>
-        <span class="fa-stack fa-sm">
-            <i class="fas fa-circle fa-stack-2x" style="color: var(--blackColor2);"></i>
+        <span class="fa-stack fa">
+            <i class="fas fa-circle fa-stack-2x" style="color: var(--blackColor3);"></i>
             <i class="fab fa-facebook-f fa-stack-1x" style="color: var(--greenColor1);"></i>
         </span>
-        <span class="fa-stack fa-sm">
-            <i class="fas fa-circle fa-stack-2x" style="color: var(--blackColor2);"></i>
+        <span class="fa-stack fa" style="margin-left: 20px; margin-right: 20px;">
+            <i class="fas fa-circle fa-stack-2x" style="color: var(--blackColor3);"></i>
             <i class="fab fa-twitter fa-stack-1x" style="color: var(--greenColor1)"></i>
         </span>
-        <span class="fa-stack fa-sm">
-            <i class="fas fa-circle fa-stack-2x" style="color: var(--blackColor2);"></i>
+        <span class="fa-stack fa">
+            <i class="fas fa-circle fa-stack-2x" style="color: var(--blackColor3);"></i>
             <i class="fab fa-google-plus-g fa-stack-1x" style="color: var(--greenColor1)"></i>
         </span>
-        <p>&copy; 2016 Landscaper. Designed by TemplateWire</p>
+        <p>&copy; 2016 Landscaper. Designed by <span>TemplateWire</span></p>
     </footer>
 </body>
 
